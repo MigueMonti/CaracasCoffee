@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Motley Forces, sans-serif;
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu .logo img {
+    width: 220px;
+    transition: all 0.5s;
+}
+
+.menu .logo {
+    cursor: pointer;
+}
+
+.menu .logo img:hover {
+    transform: scale(1,1.1);
+}
+
+.menu .opciones {
+    list-style: none;
+}
+
+.menu .opciones li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.menu .opciones a{
+    font-size: 30px;
+    color:#582417;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.menu .opciones li a:hover{
+    color: #C25410;
+}
+
+hr {
+    margin: 0;
+    background-color: #C19063;
+    border: 0;
+}
+
+.linea1 {
+    height: 1px;
+}
+
+.linea2 {
+    height: 55px;
+    background-color: #1F516D;
+}
