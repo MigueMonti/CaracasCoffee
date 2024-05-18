@@ -44,6 +44,48 @@
     color: #C25410;
 }
 
+.sesion {
+    display: flex;
+    justify-content: right;
+    padding: 20px 50px;
+}
+
+.sesion button {
+    height: 35px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sesion .iniciar button {
+    width: 140px;
+    color:#582417;
+    background:#FFFFFF;
+    margin: 0 40px;
+    border: 2px solid #582417;
+}
+
+.sesion .registrate button {
+    width: 130px;
+    color:#FFF9F9;
+    background:#1F516D;
+    border: 2px solid #1F516D;
+}
+
+.sesion .iniciar button:hover {
+    width: 140px;
+    background:#582417;
+    color:#FFFFFF;
+    margin: 0 40px;
+    border: 2px solid #582417;
+}
+
+.sesion .registrate button:hover {
+    width: 130px;
+    background:#FFF9F9;
+    color:#1F516D;
+    border: 2px solid #1F516D;
+}
+
 hr {
     margin: 0;
     background-color: #C19063;
